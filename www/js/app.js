@@ -25,11 +25,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-    .state('app', {
+  .state('app', {
     url: '/app',
     abstract: true,
     templateUrl: 'templates/menu.html',
     controller: 'AppCtrl'
+  })
+
+  .state('app.home', {
+    url: '/home',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/home.html'
+      }
+    }
   })
 
   .state('app.en-us', {
@@ -50,25 +59,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  .state('app.blog', {
-    url: '/blog',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/blog.html',
-        controller: 'BlogPosts'
-      }
-    }
-  })
-
-  .state('app.single', {
-    url: '/blog/:postId',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/post.html',
-        controller: 'BlogPosts'
-      }
-    }
-  });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/blog');
+  $urlRouterProvider.otherwise('/app/home');
 });
