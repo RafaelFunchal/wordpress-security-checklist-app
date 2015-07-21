@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.wordpresssecuritychecklistapp804039" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>wordpress-security-checklist-app</name>
+  <name>Wordpress Security Checklist</name>
   <description>
-        An Ionic Framework and Cordova project.
-    </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
+        A checklist of actions that you should take to increase the security of your website.
+  </description>
+  <author email="rafaelfunchal@gmail.com" href="http://rafaelfunchal.com.br/">
       Ionic Framework Team
     </author>
   <content src="index.html"/>
