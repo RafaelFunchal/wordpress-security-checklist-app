@@ -1,5 +1,8 @@
 {
   "name": "wordpress-security-checklist-app",
-  "app_id": "",
-  "gulpStartupTasks": ["sass", "watch"]
+  "app_id": "b15f9fbb",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ]
 }

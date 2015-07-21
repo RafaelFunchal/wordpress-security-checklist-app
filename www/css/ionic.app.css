@@ -7682,3 +7682,12 @@ a.button {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover; }
+
+blockquote {
+  margin: 1em 0.7em; }
+
+h2 {
+  margin-left: 0.3em; }
+
+.item {
+  white-space: normal !important; }
