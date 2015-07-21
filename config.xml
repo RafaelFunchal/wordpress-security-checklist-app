@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="0.0.1" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.wordpresssecuritychecklistapp804039" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Wordpress Security Checklist</name>
+  <name>wordpress-security-checklist</name>
   <description>
-        A checklist of actions that you should take to increase the security of your website.
+      A checklist of actions that you should take to increase the security of your website.
   </description>
   <author email="rafaelfunchal@gmail.com" href="http://rafaelfunchal.com.br/">
       Rafael Funchal

@@ -1,6 +1,6 @@
 {
   "name": "wordpress-security-checklist-app",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "wordpress-security-checklist-app: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
