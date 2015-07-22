@@ -1,7 +1,7 @@
 {
   "name": "wordpress-security-checklist-app",
-  "version": "0.1",
-  "description": "wordpress-security-checklist-app: An Ionic project",
+  "version": "0.0.1",
+  "description": "A checklist of actions that you should take to increase the security of your website",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^1.3.3",
