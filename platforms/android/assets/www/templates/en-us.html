@@ -1,0 +1,240 @@
+<ion-view view-title="WordPress Security Checklist">
+  <ion-content>
+
+    <blockquote>
+        <p>Most of the time a website running WordPress is hacked the culprit is not WordPress, but of any silly misconfiguration that could be avoided during its development.</p>
+        <p>That's the idea of this project: Being a checklist of actions that you should take to increase the security of your website.</p>
+    </blockquote>
+
+    <h2>Login Page</h2>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Lockdown the login page for repetitive failed login (Login Lockdown or iThemes Security)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Activate 2 factor authentication (Google Authenticator for WordPress)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Use email address to login instead of username (WP Email Login)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Rename the URL of your login page (iThemes Security or directly on .htaccess)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Remove login links from the theme (if there's any)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Use a strong password contaning uppercase, lowercase, numbers, and special characters on all accounts
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Change the passwords regularly
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Make the login error messages more generical (user/pass)
+        </li>
+    </ul>
+
+    <h2>Administrative Panel</h2>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Password protect the folder wp-admin
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Keep WordPress up-to-date
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Do not create an account with username admin. If there is any, create a new Administrator account and delete the old one
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Create an Editor account and use it solely to publish content
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Implement SSL for the WordPress admin section
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Install any plugins to check file changes (WP Security Scan, Wordfence or iThemes Security)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Scan the website for viruses, malware, and security breaches
+        </li>
+    </ul>
+
+    <h2>Themes</h2>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Keep the theme up-to-date
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Delete and remove unused themes
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Download and use themes only from reputable sources
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Remove the WordPress version from the theme
+        </li>
+    </ul>
+
+    <h2>Plugins</h2>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Keep all plugins up-to-date
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Delete and remove unused plugins
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Download and use plugins only from reputable sources
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Replace outdated plugins for alternative newer plugins
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Think twice before installing a ton of plugins
+        </li>
+    </ul>
+
+    <h2>Database</h2>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Change the default table prefix
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Schedule weekly backup of the database (Backup WP or WP DB Backup)
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Use a strong password contaning uppercase, lowercase, numbers, and special characters for the database user
+        </li>
+    </ul>
+        
+    <h2>Hosting provider</h2>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Hire a reliable hosting provider
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Connect to your server only through SFTP or SSH
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Set all folder permission to 755 and files to 644
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Make sure the wp-config.php file is not accessible by others
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Remove or block via .htaccess the files license.txt, wp-config-sample.php, and readme.html
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Disable file edit via wp-config.php by adding the following code: <code>define('DISALLOW_FILE_EDIT',true);</code>
+        </li>
+        <li class="item item-checkbox">
+            <label class="checkbox">
+                <input type="checkbox">
+            </label>
+            Prevent directory listing via .htaccess by adding the following code: <code>Options All -IndexesOptions All -Indexes</code>
+        </li>
+    </ul>
+
+    <a class="button button-block button-balanced icon-right ion-chevron-right" href="#" onclick="window.open('http://rafaelfunchal.github.io/wordpress-security-checklist/en-US/', '_system', 'location=yes'); return false;">Open in browser</a>
+
+  </ion-content>
+</ion-view>
