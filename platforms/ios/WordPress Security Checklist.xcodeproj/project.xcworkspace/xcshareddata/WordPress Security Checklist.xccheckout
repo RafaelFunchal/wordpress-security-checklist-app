@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A603AA68-6E59-487A-B385-646B7C9BE1C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WordPress Security Checklist</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9952163C31EC66ED317F5104FD87F54A95541F6</key>
+		<string>https://github.com/zergiocosta/wordpress-security-checklist-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/WordPress Security Checklist.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9952163C31EC66ED317F5104FD87F54A95541F6</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zergiocosta/wordpress-security-checklist-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9952163C31EC66ED317F5104FD87F54A95541F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9952163C31EC66ED317F5104FD87F54A95541F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wordpress-security-checklist-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
