@@ -1,6 +1,6 @@
 {
   "name": "wordpress-security-checklist-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A checklist of actions that you should take to increase the security of your website",
   "dependencies": {
     "gulp": "^3.5.6",
